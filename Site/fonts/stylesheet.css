@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Single Ladies Slant';
+    src: url('SingleLadiesSlant.eot');
+    src: local('Single Ladies Slant'), local('SingleLadiesSlant'),
+        url('SingleLadiesSlant.eot?#iefix') format('embedded-opentype'),
+        url('SingleLadiesSlant.woff2') format('woff2'),
+        url('SingleLadiesSlant.woff') format('woff'),
+        url('SingleLadiesSlant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Single Ladies';
+    src: url('SingleLadies.eot');
+    src: local('Single Ladies'), local('SingleLadies'),
+        url('SingleLadies.eot?#iefix') format('embedded-opentype'),
+        url('SingleLadies.woff2') format('woff2'),
+        url('SingleLadies.woff') format('woff'),
+        url('SingleLadies.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

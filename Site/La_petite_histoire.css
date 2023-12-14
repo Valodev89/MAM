@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Single Ladies Slant';
+    src: url('fonts/SingleLadiesSlant.eot');
+    src: local('fonts/Single Ladies Slant'), local('SingleLadiesSlant'),
+        url('fonts/SingleLadiesSlant.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SingleLadiesSlant.woff2') format('woff2'),
+        url('fonts/SingleLadiesSlant.woff') format('woff'),
+        url('fonts/SingleLadiesSlant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Single Ladies';
+    src: url('fonts/SingleLadies.eot');
+    src: local('fonts/Single Ladies'), local('SingleLadies'),
+        url('fonts/SingleLadies.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SingleLadies.woff2') format('woff2'),
+        url('fonts/SingleLadies.woff') format('woff'),
+        url('fonts/SingleLadies.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(236, 236, 236);
+    color: rgb(255, 255, 255);
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+
+h1, h2 {
+    font-family:  'Single Ladies Slant';
+    text-align: left;
+    color: rgb(164, 111, 24);
+    padding-left: 10px;
+}
+
+header {
+    background: white ;
+}
+
+#paragraph1 {
+    display: flex;
+}
+
+#paragraph2 {
+    display: flex;
+}
+
+p  {
+    margin: 10px;
+    line-height: 150%;
+}
+
+#p1
+{
+    width: 37%;
+    margin:auto;
+}
+
+article {
+    background-color:  rgb(170, 170, 170);
+    padding: 15px;
+}
+
+footer ul  {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin : 25px;
+    color: black;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#facebook {
+    margin-top: -2px;
+    
+}
+
+@media only screen and (max-width: 1230px) {
+    body {
+      width: 100%;  
+    } 
+
+    img {
+        width: auto;
+        height: auto;
+    }
+
+    #paragraph1 {
+        display: flex;
+        flex-direction : column-reverse;
+    }
+
+    #paragraph2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #p1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    #facebook {
+        width: 25px;
+        height: 25px;
+        margin-top: -2px;
+    }
+
+    #logomam {
+        width: 251px;
+        height: 300px;
+    }
+
+    #logoheader {
+        width: 105px;
+        height: 90px;
+        text-decoration: center;
+    }
+}

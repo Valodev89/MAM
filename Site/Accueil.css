@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@font-face {
+    font-family: 'Single Ladies Slant';
+    src: url('fonts/SingleLadiesSlant.eot');
+    src: local('fonts/Single Ladies Slant'), local('SingleLadiesSlant'),
+        url('fonts/SingleLadiesSlant.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SingleLadiesSlant.woff2') format('woff2'),
+        url('fonts/SingleLadiesSlant.woff') format('woff'),
+        url('fonts/SingleLadiesSlant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Single Ladies';
+    src: url('fonts/SingleLadies.eot');
+    src: local('fonts/Single Ladies'), local('SingleLadies'),
+        url('fonts/SingleLadies.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SingleLadies.woff2') format('woff2'),
+        url('fonts/SingleLadies.woff') format('woff'),
+        url('fonts/SingleLadies.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(images/hands-2847508.jpg) no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+header ul, footer ul {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+}
+
+header ul {
+  height: 60px;
+  margin: 0;
+  align-items: center;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: lighter;
+}
+
+
+footer a, footer li {
+  color: black;
+  font-weight: bold;
+}
+
+header a:hover {
+    font-weight: 500;
+}
+
+footer ul  {
+    justify-content: center;
+}
+
+footer a {
+    font-size: 15px;
+    margin: 40px;
+}
+
+
+footer {
+    height: 2.5rem;
+    margin-top: 2%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.226);  
+  height: 60px;
+  
+}
+
+.waviy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .waviy span {
+   
+    font-size: 180px;
+    font-weight: lighter;
+    font-family: 'Single Ladies';
+    color: rgb(0, 0, 0);
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+  }
+
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  h2 {
+    font-family: 'Single Ladies Slant';
+    font-weight: 500;
+    font-size: 2em;
+    
+  }
+
+  #lettrel {
+    color: #989a9b;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 90px;
+    margin-top: 80px;
+    
+  }
+
+  #lettree {
+    color: #989a9b;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 90px;
+    margin-top: 80px;
+    margin-right: 40px;
+  }
+  
+  #lettreo {
+    color: rgb(146, 121, 55);
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 120px;
+  }
+
+  #hochet {
+    width: 100px;
+    height: 160px;
+    margin-top: 515px;
+    margin-left: 5%;
+  }
+
+  #lettred {
+    color: #989a9b;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 90px;
+    margin-top: 400px;
+  }
+
+  #lettrer {
+    color: #989a9b;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 90px;
+    margin-top: 400px;
+    margin-left: -3%;
+  }
+
+  #lettreé {
+    color: #989a9b;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 90px;
+    margin-top: 400px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    body {
+      background-image: url(images/photomamorigi.jpg);
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-color: rgb(255, 255, 255);
+  }
+  
+  header ul, footer ul {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  a {
+      text-decoration:none;
+      color: black;
+      font-size: small;
+  }
+  
+  footer ul  {
+      justify-content: center;
+  }
+  
+  footer li {
+      margin : 15px;
+  }
+  
+  footer a {
+      font-size: 15px;
+  }
+  
+  footer {
+      position:absolute;
+      bottom: 0;
+      width: 100%;
+      height: 2rem;
+  }
+  
+  article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+  }
+  
+  header{
+    border-bottom: 0px solid rgb(168, 166, 166);  
+  }
+  
+    h2 {
+      position: relative;
+      font-family: 'Single Ladies Slant';
+      font-weight: 50;
+      left: 0%;
+    }
+  
+    #lettrel {
+      color: #989a9b;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 40px;
+      position: relative;
+      left: 50px;
+      top: 110px;
+    }
+  
+    #lettree {
+      color: #989a9b;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 40px;
+      position: absolute;
+      left: 70px;
+      top: 110px;
+    }
+    
+    #lettreo {
+      color: rgb(146, 121, 55);
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 30px;
+      position: absolute;
+      left: 210px;
+      top: 210px;
+    }
+
+    #hochet {
+      width: 50px;
+      height: 70px;
+    }
+  
+    #lettred {
+      color: #989a9b;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 40px;
+      position: absolute;
+      left: 180px;
+      top: 200px;
+    }
+  
+    #lettrer {
+      color: #989a9b;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 40px;
+      position: absolute;
+      left: 250px;
+      top: 200px;
+    }
+  
+    #lettreé {
+      color: #989a9b;
+      font-family: system-ui;
+      font-weight: lighter;
+      font-size: 40px;
+      position: absolute;
+      left: 280px;
+      top: 200px;
+    }
+  }
+
